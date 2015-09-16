@@ -9117,3 +9117,7 @@ code {
   white-space: pre;
 }
 
+.categories {
+  text-decoration: none;
+  text-allign: center;
+}

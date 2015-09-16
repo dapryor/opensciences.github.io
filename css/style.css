@@ -9116,3 +9116,7 @@ code {
   padding-left: 20px;
   white-space: pre;
 }
+
+#categories {
+  text-decoration:none;
+}

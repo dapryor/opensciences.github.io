@@ -2342,7 +2342,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.active:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
+  background-color: ;
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -8810,7 +8810,7 @@ input[type="checkbox"] {
 /* Redefine font colors */
 /* Links */
 /* Buttons */
-/* Nav 
+/* Nav
 @navbar-height: 60px;
 @navbar-default-color: @gray-dark; */
 /* Site mixins */
@@ -9117,7 +9117,13 @@ code {
   white-space: pre;
 }
 
-.categories {
+
+.categories{
+  color:#fff;
+}
+.categories > a:hover,
+.categories > a:focus {
   text-decoration: none;
-  text-allign: center;
+  color: #262626;
+  background-color: #f5f5f5;
 }
